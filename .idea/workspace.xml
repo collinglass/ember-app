@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83c61ff-e611-435e-a517-0029456e0773" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/handlebars.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/models/user.coffee" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/store.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/store.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/ember-data.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/ember-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/ember.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/ember.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ember/index.html.erb" afterPath="$PROJECT_DIR$/app/views/ember/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ember-app.iws" />
@@ -39,55 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ember/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="56" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.hbs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/index.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="62" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ember_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ember_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="23" selection-start="278" selection-end="278" vertical-scroll-proportion="0.41379312">
               <folding />
             </state>
           </provider>
@@ -119,11 +83,14 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/routes.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/store.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/models/user.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/views/ember/index.html.erb" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/ember.js" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/ember-data.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/handlebars.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/store.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.coffee" />
       </list>
     </option>
   </component>
@@ -182,46 +149,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ember-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ember-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ember-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ember-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ember-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -696,20 +623,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -752,27 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="62" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ember_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/ember.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28552" column="0" selection-start="1022314" selection-end="1022314" vertical-scroll-proportion="0.0">
@@ -789,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ember/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="56" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.5">
@@ -803,9 +688,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="84" selection-end="84" vertical-scroll-proportion="0.10344828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2201" column="0" selection-start="85023" selection-end="85023" vertical-scroll-proportion="0.95971566">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.13793103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ember_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="278" selection-end="278" vertical-scroll-proportion="0.41379312">
           <folding />
         </state>
       </provider>

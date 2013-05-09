@@ -12,6 +12,4 @@
 #= require_tree ./templates
 #= require_tree ./views
 
-alert "I knew it!"
-
 window.App = Ember.Application.create()
