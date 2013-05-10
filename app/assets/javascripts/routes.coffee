@@ -3,6 +3,7 @@ App.Router.reopen
   rootURL: '/'
 
 App.Router.map (match) ->
+  @route 'canvas'
   @resource 'users', ->
     @route 'new'
     @route 'edit',
@@ -14,6 +15,10 @@ App.Router.map (match) ->
 App.IndexRoute = Ember.Route.extend
   setupController: (controller, model) ->
     @controllerFor('application').set('currentRoute', 'home')
+
+App.CanvasRoute = Ember.Route.extend
+  setupController: (controller, model) ->
+    @controllerFor('application').set('currentRoute', 'canvas')
 
 App.UsersRoute = Ember.Route.extend
   setupController: ->

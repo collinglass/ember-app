@@ -3,6 +3,11 @@ App.ApplicationController = Ember.Controller.extend
     @get('currentRoute') == 'home'
   ).property('currentRoute')
 
+  isCanvas: (->
+    @get('currentRoute') == 'canvas'
+  ).property('currentRoute')
+
   isUsers: (->
     @get('currentRoute') == 'users'
   ).property('currentRoute')
+
