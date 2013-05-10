@@ -4,8 +4,12 @@ App.Router.reopen
 
 App.Router.map (match) ->
   @resource 'users', ->
+    @route 'new'
+    @route 'edit',
+      path: '/:user_id/edit'
     @route 'show',
       path: '/:user_id'
+
 
 App.IndexRoute = Ember.Route.extend
   setupController: (controller, model) ->
@@ -22,12 +26,22 @@ App.UsersIndexRoute = App.UsersRoute.extend
     @_super()
     controller.set('users', model)
 
-App.UsersShowRoute = App.UsersRoute.extend
-  model: (params) ->
-    App.User.find(params.user_id)
+App.UsersNewRoute = App.UsersRoute.extend
+  model: ->
+    App.User.createRecord()
   setupController: (controller, model) ->
     @_super()
     controller.set('content', model)
+
+App.UserRoute = Ember.Route.extend
+  model: (params) ->
+    App.User.find(params.user_id)
+  setupController: (controller, model) ->
+    controller.set('content', model)
+    @controllerFor('application').set('currentRoute', 'users')
+
+App.UsersShowRoute = App.UserRoute.extend()
+App.UsersEditRoute = App.UserRoute.extend()
 
 
 

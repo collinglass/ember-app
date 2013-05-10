@@ -3,6 +3,16 @@ class UsersController < ApplicationController
     render json: User.all
   end
 
+  def create
+    user = User.new(params[:user])
+
+    if user.save
+      render json: user
+    else
+      render json: user, status: 422
+    end
+  end
+
   def update
     user = User.find(params[:id])
     if user.update_attributes(params[:user])
@@ -11,5 +21,15 @@ class UsersController < ApplicationController
       render json: user, status: 422
     end
   end
+
+  def destroy
+    user = User.find(params[:id])
+    if user.destroy
+      render json: user, status: 204
+    else
+      render json: user
+    end
+  end
+
 
 end
