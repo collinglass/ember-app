@@ -4,6 +4,8 @@ App.Router.reopen
 
 App.Router.map (match) ->
   @route 'canvas'
+  @route 'book'
+  @route 'events'
   @resource 'users', ->
     @route 'new'
     @route 'edit',
@@ -19,6 +21,14 @@ App.IndexRoute = Ember.Route.extend
 App.CanvasRoute = Ember.Route.extend
   setupController: (controller, model) ->
     @controllerFor('application').set('currentRoute', 'canvas')
+
+App.BookRoute = Ember.Route.extend
+  setupController: (controller, model) ->
+    @controllerFor('application').set('currentRoute', 'book')
+
+App.EventsRoute = Ember.Route.extend
+  setupController: (controller, model) ->
+    @controllerFor('application').set('currentRoute', 'events')
 
 App.UsersRoute = Ember.Route.extend
   setupController: ->

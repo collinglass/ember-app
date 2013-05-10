@@ -2,27 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83c61ff-e611-435e-a517-0029456e0773" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/define.hbs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/define.hrb" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/canvas.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/book.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/events.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ember/index.html.erb" afterPath="$PROJECT_DIR$/app/views/ember/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/routes.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/routes.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ember-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368054055315" ignored="false" />
-    <file path="/index.html.erb" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368106332744" ignored="false" />
+    <file path="/index.html.erb" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368210993044" ignored="false" />
     <file path="/application.coffee" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368105908870" ignored="false" />
     <file path="/temp.rb" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368054906752" ignored="false" />
     <file path="$PROJECT_DIR$/config/environments/production.rb" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368054906752" ignored="false" />
-    <file path="/application.hbs" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368202441422" ignored="false" />
+    <file path="/application.hbs" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368211608298" ignored="false" />
     <file path="/Dummy.txt" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368197943535" ignored="false" />
     <file path="/index.hbs" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368129295034" ignored="false" />
-    <file path="/routes.coffee" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368202102588" ignored="false" />
+    <file path="/routes.coffee" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368211529364" ignored="false" />
     <file path="/database.yml" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368198862434" ignored="false" />
     <file path="/canvas.hbs" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368201408487" ignored="false" />
-    <file path="/applicationController.coffee" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368201912656" ignored="false" />
+    <file path="/applicationController.coffee" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368211489604" ignored="false" />
+    <file path="/book.hbs" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368211632603" ignored="false" />
+    <file path="/events.hbs" changelist="f83c61ff-e611-435e-a517-0029456e0773" time="1368211629177" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +48,34 @@
       <file leaf-file-name="routes.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="61" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+            <state line="30" column="61" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.hbs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="events.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/events.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="87" selection-start="264" selection-end="264" vertical-scroll-proportion="0.1724138">
+            <state line="8" column="68" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.hbs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/book.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,7 +84,7 @@
       <file leaf-file-name="applicationController.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+            <state line="14" column="35" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/models/user.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/users/show.hbs" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/users/form.hbs" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/users/new.hbs" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/users/edit.hbs" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
@@ -117,10 +135,13 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/canvas.hbs" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.sass" />
+        <option value="$PROJECT_DIR$/app/views/ember/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routes.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/events.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/book.hbs" />
       </list>
     </option>
   </component>
@@ -213,8 +234,26 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="ember-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ember-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,6 +272,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,27 +664,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/users/edit.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/users/new.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/users/newController.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/users/editController.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="2" selection-start="368" selection-end="368" vertical-scroll-proportion="0.55172414">
@@ -687,16 +713,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/canvas.hbs">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+        <state line="3" column="16" selection-start="42" selection-end="42" vertical-scroll-proportion="0.10344828">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee">
+    <entry file="file://$PROJECT_DIR$/app/views/ember/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="5" column="28" selection-start="186" selection-end="186" vertical-scroll-proportion="0.18248175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/canvas.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -708,23 +741,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes.coffee">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/applicationController.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="61" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+        <state line="14" column="35" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.sass">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="42" selection-end="42" vertical-scroll-proportion="0.10344828">
+        <state line="30" column="61" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="87" selection-start="264" selection-end="264" vertical-scroll-proportion="0.1724138">
+        <state line="8" column="68" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/events.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/book.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
