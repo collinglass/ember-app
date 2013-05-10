@@ -11,4 +11,5 @@ class UsersController < ApplicationController
       render json: user, status: 422
     end
   end
+
 end
